@@ -71,6 +71,21 @@
   color: var(--social_media_color);
 }
 
+.footer {
+  color: var(--primary_color); /* Couleur du texte */
+  position: absolute;
+  bottom: 1vw;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 1vw;
+}
+
+.footer .copyright {
+  font-size: 1vw; /* Taille de police du copyright */
+  margin: 0;
+}
+
 @media (max-width: 1032px) {
   .logo_contact p {
     font-size: 2.8vw;
@@ -88,8 +103,15 @@
   .social_Media ul {
     font-size: 3.7vw;
   }
+
+  .footer .copyright {
+    font-size: 1.3vw;
+  }
 }
 @media (max-width: 768px) {
+  .footer .copyright {
+    font-size: 1.6vw;
+  }
 }
 @media (max-width: 480px) {
   .logo_contact p {
@@ -107,5 +129,8 @@
   }
   .social_Media ul {
     font-size: 7.7vw;
+  }
+  .footer .copyright {
+    font-size: 2vw;
   }
 }

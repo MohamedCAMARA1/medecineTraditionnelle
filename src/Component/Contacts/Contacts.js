@@ -60,6 +60,12 @@ const Contacts = () => {
           </div>
         </div>
       </div>
+
+      <footer className="footer">
+        <p className="copyright">
+          &copy; 2023 Designed by AÏ_Tech, Tous droits réservés.
+        </p>
+      </footer>
     </div>
   );
 };
