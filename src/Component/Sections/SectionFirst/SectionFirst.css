@@ -1,0 +1,64 @@
+.welcome {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.welcome-left {
+  width: 100%;
+}
+.logo {
+  position: absolute;
+  z-index: 999;
+  display: flex;
+  align-items: flex-end;
+  gap: 1vw;
+  left: 3vw;
+  top: 3vw;
+}
+.logo p {
+  font-size: 1.8vw;
+  font-family: var(--Titre);
+  font-weight: 500;
+}
+.logoImg {
+  width: 4.5vw;
+}
+.img_accueil {
+  width: 100%;
+}
+
+.welcome-right p,
+.btn,
+h1 {
+  margin-left: 5vw;
+}
+.welcome-right p {
+  font-family: var(--corps_de_texte);
+  font-size: 1.2vw;
+}
+.welcome-right h1 {
+  font-family: var(--titre);
+  font-size: 3.6vw;
+  text-transform: uppercase;
+  width: 75%;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+.btn {
+  margin-top: 5vw;
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+  text-transform: uppercase;
+  padding: 1vw 2vw;
+  font-size: 1vw;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: var(--corps_de_texte);
+}
+.btn:hover {
+  background-color: var(--hover_color);
+  color: white;
+  border: 1px solid var(--hover_color);
+  font-weight: 400;
+}

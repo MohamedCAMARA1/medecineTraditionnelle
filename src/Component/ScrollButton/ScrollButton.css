@@ -1,0 +1,29 @@
+/* ScrollButton.css */
+
+.scroll-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--social_media_color);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  opacity: 0.5;
+}
+
+.scroll-button:hover {
+  opacity: 1;
+  background-color: var(--social_media_color_bold);
+}
+
+.arrow {
+  font-size: 1.7vw;
+  /* transform: rotate(-deg); */
+}

@@ -1,0 +1,29 @@
+.card {
+  flex-basis: 30%; /* Ajustez la largeur en fonction de votre mise en page */
+  text-align: center;
+  margin: 1vw;
+}
+
+.card img {
+  display: block;
+  width: 22vw; /* Largeur souhaitée */
+  height: 20vw; /* Hauteur souhaitée */
+  margin: 0 auto; /* Centre l'image horizontalement */
+}
+
+.card h2,
+.card p {
+  text-align: left;
+  margin-top: 2vw; /* Espacement du haut du titre et de la description */
+}
+
+.card h2 {
+  font-family: var(--titre_light);
+  color: var(--primary_color);
+  font-size: 1.6vw;
+  font-weight: bold;
+}
+.card p {
+  font-family: var(--corps_de_texte);
+  font-size: 1vw;
+}

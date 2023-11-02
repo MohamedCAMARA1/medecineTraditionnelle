@@ -1,0 +1,32 @@
+.Testimonies {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Testimonies h1 {
+  margin-top: 10vw;
+  font-family: var(--titre_light);
+  font-size: 3.6vw;
+  line-height: 1.2;
+  width: 20%;
+}
+
+.testimonies_list {
+  margin-top: 25vw;
+  margin-right: 5%;
+  width: 50%;
+}
+.testimonies_list p {
+  font-family: var(--corps_de_texte);
+  font-size: 1.1vw;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 1.5vw;
+}
+.testimonies_list h2 {
+  color: var(--primary_color);
+  font-family: var(--titre_light);
+  font-weight: bold;
+  font-size: 1.4vw;
+  margin-bottom: 5vw;
+}

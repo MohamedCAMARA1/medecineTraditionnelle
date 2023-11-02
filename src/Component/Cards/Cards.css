@@ -1,0 +1,9 @@
+.cards {
+  margin-top: 20vw;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Trois colonnes égales */
+  gap: 10vw; /* Espace entre les cartes */
+  justify-content: space-around;
+  margin-left: 10%;
+}

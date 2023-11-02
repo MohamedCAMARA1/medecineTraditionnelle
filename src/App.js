@@ -1,11 +1,19 @@
+import "./reset.css";
 import "./App.css";
-import Header from "./Component/Header/Header";
+import Sections from "./Component/Sections/Sections";
+import ServicesProvided from "./Component/ServicesProvided/ServicesProvided";
+import Testimony from "./Component/Testimonies/Testimonies";
+import Contacts from "./Component/Contacts/Contacts";
+import ScrollButton from "./Component/ScrollButton/ScrollButton";
 
 function App() {
   return (
     <div className="App">
-      <h1>Maître Koba</h1>
-      <Header />
+      <Sections />
+      <ServicesProvided />
+      <Testimony />
+      <Contacts />
+      <ScrollButton />
     </div>
   );
 }
