@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 .welcome-left {
   width: 100%;
@@ -61,4 +62,80 @@ h1 {
   color: white;
   border: 1px solid var(--hover_color);
   font-weight: 400;
+}
+/* Media query for screens with a maximum width of 1032px */
+@media (max-width: 1032px) {
+  .logo p {
+    font-size: 2.1vw;
+  }
+  .logoImg {
+    width: 5.5vw;
+  }
+
+  .welcome-right p {
+    font-size: 2vw;
+  }
+  .btn {
+    font-size: 3vw;
+  }
+}
+
+/* Media query for screens with a maximum width of 768px (tablets and smaller screens) */
+@media (max-width: 768px) {
+  .welcome {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+
+  .logo p {
+    font-size: 4.8vw;
+  }
+  .logoImg {
+    width: 11.5vw;
+  }
+
+  .welcome-right h1 {
+    font-size: 5.5vw;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: 5vw;
+    line-height: 1.6;
+  }
+  .welcome-right p {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: 5vw;
+    font-size: 3.2vw;
+  }
+  .btn {
+    font-size: 5vw;
+    padding: 3vw 4vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+  }
+}
+
+/* Media query for screens with a maximum width of 480px (commonly used for mobile phones) */
+@media (max-width: 480px) {
+  .welcome-right h1 {
+    font-size: 9vw;
+    text-align: left;
+    margin-top: 8vw;
+    margin-left: 5vw;
+    line-height: 1.2;
+  }
+  .welcome-right p {
+    text-align: left;
+    margin-top: 8vw;
+    font-size: 4.2vw;
+    margin-left: 5vw;
+    line-height: 1.4;
+  }
+  .btn {
+    font-size: 5vw;
+    padding: 3vw 4vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+  }
 }

@@ -7,3 +7,8 @@
   justify-content: space-around;
   margin-left: 10%;
 }
+@media (max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}

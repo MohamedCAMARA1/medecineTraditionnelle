@@ -1,4 +1,5 @@
 .Testimonies {
+  overflow: hidden;
   display: flex;
   justify-content: space-between;
 }
@@ -29,4 +30,49 @@
   font-weight: bold;
   font-size: 1.4vw;
   margin-bottom: 5vw;
+}
+
+@media (max-width: 1032px) {
+  .Testimonies {
+    flex-direction: column;
+  }
+  .Testimonies h1 {
+    font-size: 5.6vw;
+    width: 100%;
+  }
+  .testimonies_list {
+    margin-top: 10vw;
+    margin-left: 20%;
+    width: 70%;
+  }
+
+  .testimonies_list p {
+    font-size: 1.7vw;
+    margin-bottom: 3.5vw;
+  }
+  .testimonies_list h2 {
+    font-size: 2.4vw;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+  .Testimonies h1 {
+    margin-top: 20vw;
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  /* .testimonies_list {
+    margin-top: 10vw;
+    margin-left: 20%;
+    width: 70%;
+  } */
+
+  .testimonies_list p {
+    font-size: 2.4vw;
+    margin-bottom: 3.7vw;
+  }
+  .testimonies_list h2 {
+    font-size: 3.4vw;
+  }
 }

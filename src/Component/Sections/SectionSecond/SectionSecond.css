@@ -2,6 +2,7 @@
   margin-top: 4vw;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 .second h1 {
   font-family: var(--titre_light);
@@ -24,4 +25,59 @@
   font-family: var(--titre_light);
   font-size: 1.3vw;
   line-height: 1.5;
+}
+/* Media query for screens with a maximum width of 1032px */
+@media (max-width: 1032px) {
+  .img_sectionSecond {
+    width: 96%;
+  }
+
+  .list_of_services {
+    width: 95%;
+  }
+
+  .list_of_services li {
+    font-size: 2.3vw;
+  }
+}
+
+/* Media query for screens with a maximum width of 768px (tablets and smaller screens) */
+@media (max-width: 768px) {
+  .second {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+
+  .second h1 {
+    font-size: 6.5vw; /* Adjust font size for h1 */
+    width: 100%; /* Make it full width on smaller screens */
+    margin-bottom: 10vw;
+    margin-top: 10vw;
+    font-weight: bold;
+  }
+
+  .img_sectionSecond {
+    width: 100%; /* Make it full width on smaller screens */
+  }
+
+  .list_of_services {
+    width: 100%; /* Make it full width on smaller screens */
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-top: 10vw;
+  }
+
+  .list_of_services li {
+    font-size: 4.2vw; /* Adjust font size for list items */
+  }
+}
+
+/* Media query for screens with a maximum width of 480px (commonly used for mobile phones) */
+@media (max-width: 480px) {
+  .second h1 {
+    font-size: 9vw; /* Further adjust font size for h1 */
+  }
+
+  .list_of_services li {
+    font-size: 5.2vw; /* Further adjust font size for list items */
+  }
 }

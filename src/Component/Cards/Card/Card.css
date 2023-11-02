@@ -1,13 +1,13 @@
 .card {
-  flex-basis: 30%; /* Ajustez la largeur en fonction de votre mise en page */
+  flex-basis: 30%; /* Ajustez la largeur en fonction de la mise en page */
   text-align: center;
   margin: 1vw;
 }
 
 .card img {
   display: block;
-  width: 22vw; /* Largeur souhaitée */
-  height: 20vw; /* Hauteur souhaitée */
+  width: 22vw;
+  height: 20vw;
   margin: 0 auto; /* Centre l'image horizontalement */
 }
 
@@ -26,4 +26,53 @@
 .card p {
   font-family: var(--corps_de_texte);
   font-size: 1vw;
+}
+
+@media (max-width: 1032px) {
+  .card h2 {
+    font-size: 3vw;
+  }
+  .card p {
+    font-size: 1.9vw;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 768px) {
+  .card img {
+    width: 60vw; /* Largeur souhaitée */
+    height: 58vw; /* Hauteur souhaitée */
+  }
+
+  .card h2 {
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 7vw;
+  }
+  .card p {
+    margin-top: 5vw;
+    text-align: justify;
+    font-size: 2.9vw;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card img {
+    width: 70vw; /* Largeur souhaitée */
+    height: 68vw; /* Hauteur souhaitée */
+  }
+
+  .card h2 {
+    font-size: 7vw;
+    margin-top: 7vw;
+  }
+  .card p {
+    margin-top: 5vw;
+    text-align: justify;
+    font-size: 3.2vw;
+    width: 90%;
+    margin-left: 5%;
+  }
 }

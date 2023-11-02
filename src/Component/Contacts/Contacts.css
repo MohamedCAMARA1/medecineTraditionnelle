@@ -70,3 +70,42 @@
   font-size: 2.5vw;
   color: var(--social_media_color);
 }
+
+@media (max-width: 1032px) {
+  .logo_contact p {
+    font-size: 2.8vw;
+  }
+  .logo_contact_img {
+    width: 6.5vw;
+  }
+
+  .contacts li {
+    font-size: 1.7vw;
+  }
+  .contacts h2 {
+    font-size: 2.7vw;
+  }
+  .social_Media ul {
+    font-size: 3.7vw;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+  .logo_contact p {
+    font-size: 3.8vw;
+  }
+  .logo_contact_img {
+    width: 8.5vw;
+  }
+
+  .contacts li {
+    font-size: 2.4vw;
+  }
+  .contacts h2 {
+    font-size: 3.7vw;
+  }
+  .social_Media ul {
+    font-size: 7.7vw;
+  }
+}
