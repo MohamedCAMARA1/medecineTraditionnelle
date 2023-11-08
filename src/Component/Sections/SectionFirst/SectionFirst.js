@@ -27,7 +27,7 @@ const SectionFirst = () => {
       </div>
 
       <div className="welcome-right">
-        <p>Concevoir le meilleur plan de santé qui vous correspondent </p>
+        <p>Concevoir le meilleur plan de santé qui vous correspond </p>
         <h1>Fournir des soins médicaux de premier plan</h1>
 
         <button className="btn" type="button" onClick={handleScrollToCards}>
